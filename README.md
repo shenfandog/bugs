@@ -1,151 +1,39 @@
-<!--**  
+<p align="center">
+<img src="https://cdn.jsdelivr.net/gh/vtrois/kratos@4.0.2/assets/img/options/about.png">
+</p>
 
-* ERROR HTML
+<p align="center">
+<img src="https://img.shields.io/badge/php-%3E7.2.5-blue">
+<img src="https://img.shields.io/badge/wordpress-v5.9%20alpha%20tested-%234c1">
+<a href="https://vtrois.crowdin.com/kratos" target="_blank"><img src="https://badges.crowdin.net/e/f1d1a7eaa6af337dba7aa4a39b28e67c/localized.svg"></a>
+<a href="https://www.jsdelivr.com/package/gh/vtrois/kratos" target="_blank"><img src="https://data.jsdelivr.com/v1/package/gh/vtrois/kratos/badge?style=rounded"></a>
+<img src="https://img.shields.io/github/license/vtrois/kratos?color=%234c1">
+</p>
 
-* IN SHENFANDOG
+English | [简体中文](README.zh-CN.md)
 
-* :(
+## About
 
-* doge
+Kratos is a responsive WordPress theme focused on the user reading experience, just for fun 🎉
 
-**-->  
+## Install
 
-<!DOCTYPE html>  
+1. First download the theme's .zip file from the source file to your local computer.
 
-<html>  
+2. From your WordPress Administration area, head to Appearance > Themes and click `Add New`.
 
-<head>  
+3. The Add New theme screen has a new option, `Upload Theme`.
 
-    <meta charset="utf-8">  
+4. The theme upload form is now open, click `Choose File`, select the theme zip file on your computer and click `Install Now`.
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+5. The theme can now be activated from the administrator. Select the `Appearance` tab, then open the theme catalog, find the theme, and click the `Activate link`.
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">  
+## Changelog
 
-  
+Detailed changes for each release are documented in the [release notes](https://github.com/vtrois/kratos/releases).
 
-    <title>错误!</title>  
+## License
 
-      
+The code is available under the [GPL-3.0](https://github.com/vtrois/kratos/blob/main/LICENSE) license.
 
-    <style type="text/css">  
-
-    body {  
-
-        background-color: #0099CC;  
-
-        color: #FFFFFF;  
-
-        font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;  
-
-        margin-left: 100px;  
-
-    }  
-
-    .face {  
-
-        font-size: 100px;  
-
-    }  
-
-    p{  
-
-        font-size: 24px;  
-
-        padding: 8px;  
-
-        line-height: 40px;  
-
-    }  
-
-    .tips {  
-
-        font-size: 16px  
-
-    }  
-
-      
-
-    /*针对小屏幕的优化*/  
-
-    @media screen and (max-width: 600px) {   
-
-        body{  
-
-            margin: 0 10px;  
-
-        }  
-
-        p{  
-
-            font-size: 18px;  
-
-            line-height: 30px;  
-
-        }  
-
-        .tips {  
-
-            display: inline-block;  
-
-            padding-top: 10px;  
-
-            font-size: 14px;  
-
-            line-height: 20px;  
-
-        }  
-
-    }  
-
-    </style>  
-
-</head>  
-
-  
-
-<body>  
-
-    <script>   
-
-    var i = 5;  //这里是倒计时的秒数  
-
-    var intervalid;   
-
-    intervalid = setInterval("cutdown()", 1000);   
-
-    function cutdown() {   
-
-        if (i == 0) {   
-
-            window.location.href = "http://shenfandog.github.io"; //倒计时完成后跳转的地址  
-
-            clearInterval(intervalid);   
-
-        }   
-
-        document.getElementById("mes").innerHTML = i;   
-
-        i--;   
-
-    }  
-
-    window.onload = cutdown;  
-
-    </script>  
-
-      
-
-    <span class="face">:(</span>  
-
-    <p>错误!您访问的页面没有找到。<br>  
-
-        <span id="mes"></span> 秒后自动回到首页<br>  
-
-        <span class="tips">如果您想了解更多信息，则可以稍后在线搜索此错误: 算了你还是别搜了(doge)</span>  
-
-    </p>  
-
-</body>  
-
-</html>  
+The document is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
